@@ -13,7 +13,7 @@ class Dashboard extends BaseDashboard
 {
     protected static string $layout = 'layouts.dashboard-standalone';
 
-    protected string $view = 'dashboard1';
+    protected string $view = 'dashboard';
 
     protected function getViewData(): array
     {
